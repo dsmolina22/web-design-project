@@ -1,0 +1,572 @@
+
+/*milans css part*/
+.m1{
+	background-color:#75A95F;     /*home page milan*/
+}
+.mb2{
+	background-color:#42633C; /*about page milan*/
+
+
+	
+}
+.mb1{
+	background-color::#75A95F;
+}
+.img-left{
+	float:left;
+	padding-right:30px;
+	padding-bottom:20px;
+}
+
+.img-right{
+	float:right;
+	padding-left:20px;
+}
+.MB1{
+	
+	font-weight:25;
+	text-align:left;
+	font-size:50px;
+}
+.bottommb1{
+	margin:40px;
+	border-color:black;
+	border-style:solid;
+    width:40%;
+	
+	
+}
+.labelmb1{
+	padding:10px;
+	font-weight:bold;       /*label decoration*/
+	display:block;
+	text-align:center;
+	font-size:30px;
+	
+}
+.labelmb2{
+	padding:10px;
+	text-decoration-line:underline;
+	
+}
+
+.listmb2{
+	line-height: 1.6;
+	border-color:black;            /*list decoration*/
+	border-style:solid;
+	float:left;
+	padding:15px;
+	width:50%;
+	margin:50px;
+	background-color:PaleGreen;
+	
+	
+}
+.lih2m1{
+	text-decoration-line:underline;
+	padding:10px;
+	
+}
+.lim1{
+	padding:5px;
+}
+
+
+.topm1{
+     float:right;
+	border-style:solid;
+	border-color:black;
+	width:60%;
+	background-color:#75A95F;
+	margin:20px;
+	
+}
+	
+	
+}
+.h1mb2{
+    text-align:center;
+	font-size:40;
+	font-style:bold;
+}
+.MB2{
+	font-weight:25;
+	text-align:left;
+	font-size:50px;
+	color:white;
+}
+
+
+.imgmb3{
+	
+	width:600px;
+	height:auto;
+	border-radius:10px;
+
+
+}
+.wrapper{
+	display:flex;
+	align-items:flex-start;
+	gap:50px;                   /* to put image and div inline */
+	padding-top:100px;
+}
+.wrappermb2{
+	display:flex;
+	align-items:flex-start;      /*to place form and the list inline */
+	gap:50px;                       
+	padding-top:100px;  
+}
+.formmb1{
+	background-color:PaleGreen;
+}
+/* google font*/
+.bebas-neue-regularmb2{
+	
+  font-family: "Bebas Neue", sans-serif;   
+  font-weight: 100;
+  font-size:20px;
+  font-style: normal;
+ 
+}
+
+.bebas-neue-regularmb3{
+	
+  font-family: "Bebas Neue", sans-serif;   
+  font-weight: 100;
+  font-size:18px;
+  font-style:italic;
+}
+.btnm1{    
+	margin:15px;     /*styling submit button*/
+	width:25%;
+}
+.txtmb2{
+	margin:15px;
+}
+
+
+
+	
+ 
+	
+	
+
+	
+	
+	
+	
+	
+
+	
+
+
+
+
+
+
+/* nathans css */
+
+ /*EEIRE BLACK  #1B1B1B*/
+/*GREEN HOUSE #42633C*/
+/*SIROCCO #5E7D67*/
+/*ASPARAGUS #75A95F*/
+/*Spring rain #ABC79F*/
+
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.inter-regular {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+   text-align:centre;
+}
+.nathan{
+	color:#ABC79F;
+	background-color:#42633C;
+	background:;
+	background-repeat:repeat-y;
+	animation: scrollBackground 10s linear infinite;
+	background-size: cover; 
+	 background-attachment: fixed;
+	 background-position: center top;
+	 max-width:1400px;  /*size of container max is 1400px */
+	 margin:0 auto;
+	 padding:20px 40px;
+	 display: flex;
+    gap: 40px;          /* space between left and right */
+    align-items: flex-start;
+    margin-top: 30px;
+}
+
+.container-md{
+	background-color: rgba(27, 27, 27, 0.9) ;
+	padding:15px;
+	border-radius: 10px;
+	display:auto;
+	flex:wrap;
+	white-space:normal;
+	
+	
+	
+	
+    overflow-wrap: break-word; 
+    word-wrap: break-word;     
+    word-break: break-word;    
+    white-space: normal;       
+	
+
+}
+
+.im1 {
+  width: 100%;  /*makes image not go outside container*/
+  height: 80%;
+  border-radius: 12px;
+  object-fit:cover;
+  transition:1s ease;
+  background-color:rgba(27, 27, 27, 0.9);
+  border:solidrgba(27, 27, 27, 0.9);
+  padding-top:20px;
+  align-items:centre;
+  
+  
+}
+
+.im1:hover{
+	transform:scale(1.1);  /*makes image interactive*/
+}
+
+
+
+	
+	
+
+
+
+
+/* hardest part to figure out  2 hours */
+table.my-table,
+table.my-table > tbody > tr,
+table.my-table > tbody > tr > td,
+table.my-table > tbody > tr > th,
+table.my-table > thead > tr,
+table.my-table > thead > tr > th {
+  background-color: #42633C !important;
+  color: #ABC79F !important;
+  border: 1px solid #5E7D67 !important;
+}
+
+
+table.my-table > thead > tr > th {
+  background-color: #75A95F !important;
+  color: #DF1E07 !important;
+  font-weight: bold;
+}
+
+
+
+
+
+table.my-table.table-hover tbody tr:hover,
+table.my-table.table-hover tbody tr:hover > td {
+  background-color: #314526 !important;
+  color: #ABC79F !important;
+}
+
+
+.bottom-row{
+	text-align:centre;
+	border-top:solid #ABC79F px;
+	background-color:rgba(27, 27, 27, 0.9);
+	border-radius:20px;
+	border:solid #ABC79F 1px;
+	margin-top:20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.form-control{
+	background-color:;
+	color: #ABC79F;
+	
+}
+
+.btn-success{
+	background-color:#ABC79F;
+	color:#1B1B1B;
+	border:solid  #1B1B1B ;
+	border-radius:20px;
+}
+
+
+}
+
+.im1{
+	width:100%
+}
+
+
+
+
+
+
+
+.header-top{
+
+	border-radius:10px;
+	margin-bottom:10px;
+	
+	background-color:;
+	box-shadow:  #2px 4px inset ;
+}
+
+.my-custom-row-mid{
+	border-radius:10px;
+	margin-bottom:10px;
+	border: ;
+	background-color:;
+	box-shadow:  #42633C;
+	justify-content:centre;
+}
+
+
+}
+
+ .navbar{
+	 width:100%;
+ }
+ 
+ /*page 2 css */
+
+.nathan2{
+	word-wrap: break-word;
+	background-color: rgba(27, 27, 27, 0.9) ;
+	padding:15px;
+	border-radius: 10px;
+	display:flex;
+	flex:wrap;
+	white-space:normal;
+	color: #ABC79F;
+	width:;
+}
+
+.page-2{
+	border:solid #5E7D67;
+	border-radius:10px ;
+	max-width:1400px;
+	
+}
+.im2{
+	max-width:100%;
+	padding:5px;
+	
+}
+
+.bebas-neue-regular-2 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+.nav-link {
+    color:  #ABC79F !important;
+	
+}
+
+
+
+
+
+
+
+
+/* darias css */
+/* google font*/
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 600;
+  font-size: 70px;
+  font-style: normal;
+  background-image: url("bc2.jpg");
+  color: #a8c79f;
+}
+.bebas-neue-regularh3 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  font-style: normal;
+
+}
+.bebas-neue-regular2 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 600;
+  font-size: 70px;
+  font-style: normal;
+  background-image: url("bc3.jpg");
+  color: #a8c79f;
+}
+.bebas-neue-regularh32 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 500;
+  font-size: 35px;
+  font-style: normal;
+
+}
+
+
+.inter-regular {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  font-style: normal;
+}
+.inter-regularh3 {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 35px;
+  font-style: bold;
+}
+
+
+.page-one {
+	background-color:#75a95f;
+	
+	
+}
+.page-two {
+	background-color:#75a95f;
+}
+h1{
+	color:#0f1e0f;
+	font-size:100px;
+}
+
+
+
+
+
+
+
+
+  /* Juliet Akinyemi's CSS*/
+/* Body styles for the whole page*/
+body {
+    background-color: ForestGreen;
+    padding: 0;
+    margin: 0;
+}
+
+/* Main heading styles */
+h1 {
+    text-align: center;
+    /* Adds spacing above and below heading */
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: white;
+    /* Text shadow for depth */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Subheading styles */
+h3 {
+    color: white;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+/* Paragraph styling */
+.content-box {
+    line-height: 1.6;
+    background-color: PaleGreen;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* Section spacing adds space between each section */
+.section {
+    margin-bottom: 50px;
+}
+
+/* Image row spacing adds space below images */
+.image-row {
+    margin-bottom: 20px;
+}
+
+/* Image column spacing on mobile */
+.image-row .col-md-6 {
+    margin-bottom: 15px;
+}
+
+/* Image styles */
+img {
+    transition: transform 0.3s ease;
+}
+
+/* Image hover effect zooms in when you hover your mouse */
+img:hover {
+    transform: scale(1.05);
+}
+
+/* font class for body text */
+.inter-regular {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* Font class for headings */
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+}
+
+/* Responsive design smaller heading for mobile devices */
+@media (max-width: 768px) {
+    .bebas-neue-regular {
+        font-size: 2rem;
+    }
+}
+/* Simple navbar styling */
+nav {
+    background-color: darkgreen;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Logo  */
+nav img {
+    height: 120px; 
+    float: left;
+    margin-right: 20px; /* Adds space between logo and links */
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    line-height: 50px; /* Match logo height */
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
